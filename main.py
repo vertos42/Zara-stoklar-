@@ -51,3 +51,5 @@ if __name__ == "__main__":
             if in_stock:
                 alert()
         time.sleep(CHECK_INTERVAL)
+        # versiyon 1.0 - test için
+
