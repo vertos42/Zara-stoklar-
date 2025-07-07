@@ -24,7 +24,7 @@ jobs:
         pip install pyinstaller
         pyinstaller --onefile main.py
     - name: Upload executable
-      uses: uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v4
       with:
         name: zara_stock_checker
         path: dist/main.exe
